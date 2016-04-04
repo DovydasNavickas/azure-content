@@ -190,7 +190,7 @@ Here are the contents of the JSON file for the template.
                     "vmSize": "[variables('vmSize')]"
                 },
                 "osProfile": {
-                    "computername": "[variables('vmName')]",
+                    "computerName": "[variables('vmName')]",
                     "adminUsername": "[parameters('adminUsername')]",
                     "adminPassword": "[parameters('adminPassword')]"
                 },
